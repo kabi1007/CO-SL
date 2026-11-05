@@ -75,6 +75,7 @@ ASL_MIN_CONFIDENCE = 0.60
 CORS_ALLOW_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://kabi1007.github.io",
 ]
 
 # ---------------------------------------------------------------------------
