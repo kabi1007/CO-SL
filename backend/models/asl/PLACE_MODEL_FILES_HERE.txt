@@ -1,0 +1,7 @@
+Place these files in this directory (see README.md "Where to place your model files"):
+
+  cosl_asl_5words_baseline.keras
+  cosl_asl_5words_labels.json
+  mean.npy
+  std.npy
+  holistic_landmarker.task

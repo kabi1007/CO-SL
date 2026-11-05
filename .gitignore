@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Env
+.env
+
+# Model binaries (placed locally by the user, not committed)
+backend/models/asl/*.keras
+backend/models/asl/*.npy
+backend/models/asl/*.task
+backend/models/isl/*.keras
+
+# OS
+.DS_Store
+
+
+# Python cache
+*.py[cod]
+
+# Environment files
+.env.*
+!.env.example
+!**/.env.example
+
+# Model binaries
+backend/models/**/*.keras
+backend/models/**/*.npy
+backend/models/**/*.task
+
+# Audio test files
+*.wav
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Backup and experimental files
+*.backup
+*.before_*
+*.temporal_vote_backup
+
+# IDE settings
+.vscode/
+.idea/
+
+!backend/models/asl/mean.npy
+!backend/models/asl/std.npy
+
+# Backup and temporary frontend files
+*.before-*
+*.instagram-backup
+*.tsbuildinfo
