@@ -42,6 +42,9 @@ jobs:
 
       - name: Build frontend
         working-directory: frontend
+        env:
+          VITE_API_BASE_URL: https://signals-symantec-controversial-except.trycloudflare.com
+          VITE_WS_BASE_URL: wss://signals-symantec-controversial-except.trycloudflare.com
         run: npm run build
 
       - name: Upload production build
